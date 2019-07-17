@@ -23,8 +23,15 @@ public class Portfolio {
 
     public double getMarketValue(){
         double marketValue = 0.0;
+        System.out.println("newBranch");
+        //defccedeefefew
+        // e
+        System.out.println("cdeefefefeevervvdbsvcdsvfbdsvbdskjvbdvkndbsvk");
+
 
         for(Stock stock:stocks){
+
+
             marketValue += stockService.getPrice(stock) * stock.getQuantity();
         }
         return marketValue;
